@@ -1,0 +1,2 @@
+/Users/steve/Desktop/SkipDBProject/libs/tagdb/projects/osx/../../source/TagDB.c:275: error: conflicting types for 'TagDB_keyAtIndex_'
+/Users/steve/Desktop/SkipDBProject/libs/tagdb/projects/osx/../../source/TagDB.h:63: error: previous declaration of 'TagDB_keyAtIndex_' was here

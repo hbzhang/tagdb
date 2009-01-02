@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76FB00486AB0100D96B5E /* tagdb.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6A0FF2C0290799A04C91782 /* tagdb.1 */; };
+		AA103BD50DC55640000DB69A /* Datum.c in Sources */ = {isa = PBXBuildFile; fileRef = AA103BC50DC55640000DB69A /* Datum.c */; };
+		AA103BD70DC55640000DB69A /* SymbolDB.c in Sources */ = {isa = PBXBuildFile; fileRef = AA103BCA0DC55640000DB69A /* SymbolDB.c */; };
+		AA103BD80DC55640000DB69A /* TagDB.c in Sources */ = {isa = PBXBuildFile; fileRef = AA103BCC0DC55640000DB69A /* TagDB.c */; };
+		AA103BD90DC55640000DB69A /* TagDBItem.c in Sources */ = {isa = PBXBuildFile; fileRef = AA103BCF0DC55640000DB69A /* TagDBItem.c */; };
+		AAAFEFB60DCA79710033B145 /* Uint64Array.c in Sources */ = {isa = PBXBuildFile; fileRef = AAAFEFB40DCA79710033B145 /* Uint64Array.c */; };
+		AAAFEFEC0DCA843E0033B145 /* correctness.c in Sources */ = {isa = PBXBuildFile; fileRef = AAAFEFEB0DCA843E0033B145 /* correctness.c */; };
+		AAAFF00D0DCA84EC0033B145 /* performance.c in Sources */ = {isa = PBXBuildFile; fileRef = AAAFF00C0DCA84EC0033B145 /* performance.c */; };
+		AAE58DC30DC951CE00183939 /* libtokyocabinet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE58DC20DC951CE00183939 /* libtokyocabinet.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76FAF0486AB0100D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76FB00486AB0100D96B5E /* tagdb.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8DD76FB20486AB0100D96B5E /* tagdb */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tagdb; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA103BC50DC55640000DB69A /* Datum.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Datum.c; path = ../../source/Datum.c; sourceTree = SOURCE_ROOT; };
+		AA103BC60DC55640000DB69A /* Datum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Datum.h; path = ../../source/Datum.h; sourceTree = SOURCE_ROOT; };
+		AA103BC90DC55640000DB69A /* portable_stdint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = portable_stdint.h; path = ../../source/portable_stdint.h; sourceTree = SOURCE_ROOT; };
+		AA103BCA0DC55640000DB69A /* SymbolDB.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SymbolDB.c; path = ../../source/SymbolDB.c; sourceTree = SOURCE_ROOT; };
+		AA103BCB0DC55640000DB69A /* SymbolDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SymbolDB.h; path = ../../source/SymbolDB.h; sourceTree = SOURCE_ROOT; };
+		AA103BCC0DC55640000DB69A /* TagDB.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = TagDB.c; path = ../../source/TagDB.c; sourceTree = SOURCE_ROOT; };
+		AA103BCD0DC55640000DB69A /* TagDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TagDB.h; path = ../../source/TagDB.h; sourceTree = SOURCE_ROOT; };
+		AA103BCE0DC55640000DB69A /* TagDBAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TagDBAPI.h; path = ../../source/TagDBAPI.h; sourceTree = SOURCE_ROOT; };
+		AA103BCF0DC55640000DB69A /* TagDBItem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = TagDBItem.c; path = ../../source/TagDBItem.c; sourceTree = SOURCE_ROOT; };
+		AA103BD00DC55640000DB69A /* TagDBItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TagDBItem.h; path = ../../source/TagDBItem.h; sourceTree = SOURCE_ROOT; };
+		AAAFEFB40DCA79710033B145 /* Uint64Array.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Uint64Array.c; path = ../../source/Uint64Array.c; sourceTree = SOURCE_ROOT; };
+		AAAFEFB50DCA79710033B145 /* Uint64Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Uint64Array.h; path = ../../source/Uint64Array.h; sourceTree = SOURCE_ROOT; };
+		AAAFEFEB0DCA843E0033B145 /* correctness.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = correctness.c; path = ../../tests/correctness.c; sourceTree = SOURCE_ROOT; };
+		AAAFF00C0DCA84EC0033B145 /* performance.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = performance.c; path = ../../tests/performance.c; sourceTree = SOURCE_ROOT; };
+		AAE58DC20DC951CE00183939 /* libtokyocabinet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtokyocabinet.a; path = /opt/local/lib/libtokyocabinet.a; sourceTree = "<absolute>"; };
+		C6A0FF2C0290799A04C91782 /* tagdb.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = tagdb.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76FAD0486AB0100D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE58DC30DC951CE00183939 /* libtokyocabinet.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* tagdb */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = tagdb;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				AAAFEFEB0DCA843E0033B145 /* correctness.c */,
+				AAAFF00C0DCA84EC0033B145 /* performance.c */,
+				AAE58DC20DC951CE00183939 /* libtokyocabinet.a */,
+				AA103BC50DC55640000DB69A /* Datum.c */,
+				AA103BC60DC55640000DB69A /* Datum.h */,
+				AA103BC90DC55640000DB69A /* portable_stdint.h */,
+				AA103BCA0DC55640000DB69A /* SymbolDB.c */,
+				AA103BCB0DC55640000DB69A /* SymbolDB.h */,
+				AA103BCC0DC55640000DB69A /* TagDB.c */,
+				AA103BCD0DC55640000DB69A /* TagDB.h */,
+				AA103BCE0DC55640000DB69A /* TagDBAPI.h */,
+				AA103BCF0DC55640000DB69A /* TagDBItem.c */,
+				AA103BD00DC55640000DB69A /* TagDBItem.h */,
+				AAAFEFB40DCA79710033B145 /* Uint64Array.c */,
+				AAAFEFB50DCA79710033B145 /* Uint64Array.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FB20486AB0100D96B5E /* tagdb */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6A0FF2C0290799A04C91782 /* tagdb.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76FA90486AB0100D96B5E /* tagdb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "tagdb" */;
+			buildPhases = (
+				8DD76FAB0486AB0100D96B5E /* Sources */,
+				8DD76FAD0486AB0100D96B5E /* Frameworks */,
+				8DD76FAF0486AB0100D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tagdb;
+			productInstallPath = "$(HOME)/bin";
+			productName = tagdb;
+			productReference = 8DD76FB20486AB0100D96B5E /* tagdb */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "tagdb" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* tagdb */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76FA90486AB0100D96B5E /* tagdb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76FAB0486AB0100D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA103BD50DC55640000DB69A /* Datum.c in Sources */,
+				AA103BD70DC55640000DB69A /* SymbolDB.c in Sources */,
+				AA103BD80DC55640000DB69A /* TagDB.c in Sources */,
+				AA103BD90DC55640000DB69A /* TagDBItem.c in Sources */,
+				AAAFEFB60DCA79710033B145 /* Uint64Array.c in Sources */,
+				AAAFEFEC0DCA843E0033B145 /* correctness.c in Sources */,
+				AAAFF00D0DCA84EC0033B145 /* performance.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB928608733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = "$(HOME)/bin";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				PRODUCT_NAME = tagdb;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB928708733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = "$(HOME)/bin";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/local/lib,
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
+				PRODUCT_NAME = tagdb;
+			};
+			name = Release;
+		};
+		1DEB928A08733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /opt/local/include/;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		1DEB928B08733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				GCC_MODEL_TUNING = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /opt/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib/;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "tagdb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928608733DD80010E9CD /* Debug */,
+				1DEB928708733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "tagdb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928A08733DD80010E9CD /* Debug */,
+				1DEB928B08733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
